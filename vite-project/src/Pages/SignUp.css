@@ -1,0 +1,69 @@
+.signup-container {
+  border: skyblue solid 3px;
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  background: url("https://images.pexels.com/photos/31792465/pexels-photo-31792465.jpeg") 
+    no-repeat center center/cover;
+
+    
+}
+
+/* Card */
+.signup-card {
+  width: 460px;
+  padding: 32px;
+  background: #ddd4d4;
+  border-radius: 12px;
+  box-shadow: 0px 4px 18px rgba(50, 2, 2, 0.08);
+  border: 1px solid #f27f7f;
+  transition: 0.3s ease-in-out;
+}
+
+/* Card Hover Effect */
+.signup-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 8px 26px rgba(0, 0, 0, 0.15);
+}
+
+/* Title */
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+/* Title Hover */
+.form-title:hover {
+  color: #4a6cf7;
+  text-shadow: 0px 0px 8px rgba(74, 108, 247, 0.3);
+}
+
+/* Input Hover */
+input:hover,
+.ant-input:hover,
+.ant-input-password:hover {
+  border-color: #4a6cf7 !important;
+  transition: 0.2s;
+}
+
+/* Checkbox Hover */
+.ant-checkbox-wrapper:hover {
+  color: #4a6cf7;
+}
+
+/* SIGN UP Button Hover (Ant Button) */
+.ant-btn-primary {
+  transition: 0.3s ease;
+}
+
+.ant-btn-primary:hover {
+  background-color: #3453d1 !important;
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 12px rgba(74, 108, 247, 0.3);
+}

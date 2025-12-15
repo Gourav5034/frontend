@@ -1,0 +1,91 @@
+.driver-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6f9;
+  
+
+}
+
+.driver-box {
+  background: #ffffff;
+  padding: 35px;
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+.driver-title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.driver-subtitle {
+  text-align: center;
+  color: #777;
+  margin-bottom: 25px;
+}
+
+.driver-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.driver-label {
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.driver-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 18px;
+  font-size: 14px;
+}
+
+.driver-btn {
+  width: 100%;
+  padding: 12px;
+  background: #4a6cf7;
+  border: none;
+  color: white;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.driver-btn:hover {
+  background: #3453d1;
+}
+
+.driver-error {
+  margin-top: 10px;
+  color: red;
+  text-align: center;
+  font-weight: 500;
+}
+
+.driver-details {
+  margin-top: 25px;
+  background: #f7faff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #d8e2ff;
+}
+
+.driver-details h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.driver-details p {
+  font-size: 15px;
+  margin-bottom: 6px;
+}
